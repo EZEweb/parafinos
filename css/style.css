@@ -26,7 +26,7 @@ h4,
 h5,
 h6 {
 	margin: 0;
-	color: #1904d3;
+	color: #000;
 	font-weight: 600;
 	line-height: 1;
 }
@@ -57,7 +57,7 @@ h6 {
 
 p {
 	font-size: 15px;
-	color: #000000;
+	color: #000;
 	line-height: 1.8;
 	font-weight: 500;
 }
@@ -118,7 +118,7 @@ Helper CSS
 .text-white span,
 .text-white li,
 .text-white a {
-	color: #fff;
+	color: #000;
 }
 
 /*---------------------
@@ -136,7 +136,7 @@ Commom elements
 	padding: 23px 20px;
 	border-radius: 50px;
 	text-transform: uppercase;
-	background: #fc0254;
+	background: #fe2c15;
 	color: #fff;
 	line-height: normal;
 	cursor: pointer;
@@ -148,7 +148,7 @@ Commom elements
 }
 
 .site-btn.sb-c2 {
-	background: #383b70;
+	background: #f44336;
 }
 
 /* Preloder */
@@ -252,7 +252,7 @@ Header section
 }
 
 .header-right .user-panel .register {
-	color: #fc0254;
+	color: #fe2c15;
 	margin-right: 0;
 }
 
@@ -275,13 +275,13 @@ Header section
 .main-menu li a {
 	display: block;
 	font-size: 16px;
-	color: #ffffff;
+	color: #fff;
 	padding: 44px 10px;
 	margin-left: 60px;
 }
 
 .main-menu li a:hover {
-	color: #000000;
+	color: #000;
 }
 
 .main-menu li:first-child a {
@@ -304,7 +304,7 @@ Header section
 	visibility: hidden;
 	opacity: 0;
 	margin-top: 50px;
-	background: #fff;
+	background: #f95117;
 	z-index: 99;
 	-webkit-transition: all 0.4s;
 	transition: all 0.4s;
@@ -324,7 +324,7 @@ Header section
 }
 
 .main-menu .sub-menu li a:hover {
-	color: #ffffff;
+	color: #fff;
 }
 
 .slicknav_menu {
@@ -348,11 +348,11 @@ Hero section
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
-	background: #0a183d;
+	background: #ffee00;
 }
 
 .hs-item h2 {
-	color: #fff;
+	color: #000;
 	font-size: 70px;
 	margin-bottom: 25px;
 	line-height: 0.9;
@@ -362,11 +362,11 @@ Hero section
 }
 
 .hs-item h2 span {
-	color: #fc0254;
+	color: #fe2c15;
 }
 
 .hs-item p {
-	color: #ffffff;
+	color: #000;
 	opacity: 0.6;
 	margin-bottom: 50px;
 	position: relative;
@@ -450,7 +450,7 @@ Hero section
 }
 
 .hero-slider .owl-dots .owl-dot.active {
-	background: #fc0254;
+	background: #fe2c15;
 }
 
 /* ----------------
@@ -467,7 +467,7 @@ How section
  -------------------*/
 
 .how-section {
-	background-color: #0a183d;
+	background-color: #ffee00;
 }
 
 .how-item .hi-icon {
@@ -475,7 +475,7 @@ How section
 	width: 57px;
 	height: 57px;
 	border-radius: 50%;
-	background: #fc0254;
+	background: #fe2c15;
 	margin-bottom: 25px;
 }
 
@@ -491,7 +491,6 @@ How section
 
 .how-item p {
 	font-weight: 400;
-	opacity: 0.6;
 }
 
 /* ----------------
@@ -599,7 +598,7 @@ Responsive
  -------------------*/
 
 .footer-section {
-	background: #f49f0e;
+	background: #ffee00;
 	padding: 100px 0 85px;
 }
 
